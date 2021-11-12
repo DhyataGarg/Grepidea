@@ -2,7 +2,7 @@
   "name": "grepidea",
   "description": "GrepIdea - Place Where Ideas Take Birth",
   "scripts": {
-    "build": "webpack -p",
+    "build": "webpack --mode production",
     "start": "node dist/server.js",
     "dev": "webpack && node dist/server.js"
   },
